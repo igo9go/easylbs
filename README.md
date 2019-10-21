@@ -15,7 +15,6 @@ $ composer require gundy/easylbs -vvv
 
 ## Usage
 
-
 ```php
 use  Gundy\Easylbs\Factory;
 
@@ -241,6 +240,10 @@ $params = [
 ];
 $res = $app->sendRequest('/ws/direction/v1/walking', $params);
 ```
+
+### Documentation
+- [腾讯位置服务](https://lbs.qq.com/webservice_v1/index.html)
+
 ## Contributing
 
 You can contribute in one of three ways:
